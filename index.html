@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        a {
+            text-decoration: none;
+            transition: 500ms;
+        }
+        
+        a:hover {
+            color: red;
+        }
+        
+        * {
+            margin: 0px;
+        }
+        
+        .row {
+            clear: both;
+        }
+        
+        .width-6 {
+            width: 50%;
+            float: left;
+        }
+        
+        .width-4 {
+            width: 33.3333%;
+            float: left;
+        }
+        
+        .width-3 {
+            width: 25%;
+            float: left;
+        }
+        
+        .div {
+            height: 100vh;
+            width: 100%;
+            margin: auto;
+            color: black;
+        }
+        
+        .bgcolor-gray {
+            background-color: gray;
+        }
+        
+        .bgcolor-pink {
+            background-color: pink;
+        }
+        
+        .heading-size {
+            font-size: 35px;
+            text-align: center;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        
+        .box {
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        .subbox {
+            padding: 5px;
+        }
+        
+        .header {
+            position: relative;
+            margin: 0;
+        }
+        
+        .header img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .header .iconbar {
+            padding: 5px;
+            box-sizing: border-box;
+            width: 100%;
+            position: absolute;
+            bottom: 10px;
+            font-size: 20px;
+        }
+        
+        .price {
+            top: 0px;
+        }
+        
+        .float-left {
+            float: left;
+        }
+        
+        .float-right {
+            float: right;
+        }
+        
+        .content {
+            background-color: powderblue;
+            text-align: right;
+        }
+        
+        .footer {
+            margin-top: 10px;
+            background-color: lightgray;
+        }
+        
+        .footer .button {
+            margin: 5px 0 0 5px;
+            background-color: rgb(0, 150, 219);
+            color: white;
+            width: 80px;
+            height: 30px;
+            border: 0px;
+            border-radius: 10%;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div id="div2" class="div">
+        <p class="heading-size">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Doloremque soluta unde suscipit!</p>
+        <div class="container">
+            <div class="row">
+                <div class="width-4 box bgcolor-gray">
+                    <div class="subbox bgcolor-pink">
+                        <div class="header">
+                            <img src="img/demo.jpg" alt="demo">
+                            <div class="iconbar">
+                                <span class="float-left">
+                                <i class="far fa-heart"></i>
+                                </span>
+                                <span class="float-right">
+                                    <p class="float-left">Days 1</p>
+                                    <i class="far fa-clock float-left"></i>
+                                    <p class="float-left">17-09-2016</p>
+                                    <i class="far fa-calendar-alt float-left"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p style="font-size: 30px;">Government Recruitment</p>
+                            <p>By <b>Peter Parker</b></p>
+                        </div>
+                        <div class="footer">
+                            <button class="button">Enroll</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-4 box"></div>
+                <div class="width-4 box"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
